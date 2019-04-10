@@ -15,7 +15,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = FSCalendarStandardSeparatorColor;
+        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
